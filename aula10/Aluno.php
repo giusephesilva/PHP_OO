@@ -1,6 +1,6 @@
 <?php
-require_once "Pessoa.php";
-class Aluno extends Pessoa{
+require_once "Pessoas.php";
+class Aluno extends Pessoas{
     private $matr;
     private $curso;
 

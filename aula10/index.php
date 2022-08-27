@@ -8,18 +8,19 @@
 </head>
 <body>
 
-<?php
+<?php   
 
-require_once "Pessoa.php";
+require_once "Pessoas.php";
 require_once "Aluno.php";
 require_once "Professor.php";
 require_once "Funcionario.php";
 //programa principal
 
-$p1 = new Pessoa();
-$p2 = new Aluno();
+$p1 = new Pessoas(); 
+$p2 = new Aluno(); 
 $p3 = new Professor();
-$p4 = new Funcionario();
+$p4 = new Funcionario();    
+
 
 $p1->setNome("Pedro");
 $p2->setNome("Maria");
